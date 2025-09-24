@@ -12,7 +12,7 @@ function App() {
   return (
     <ToastProvider>
       <AuthProvider>
-        <Router basename="/FMS">
+        <Router basename="/frontapp/">
           <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
             <Routes>
               <Route path="/" element={<Navigate to="/login" replace />} />
