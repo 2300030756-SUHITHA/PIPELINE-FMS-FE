@@ -26,7 +26,7 @@ const SERVICES = [
   'Netflix',
 ];
 
-const API_URL = 'http://localhost:8090/feedback_management'; // 👈 adjust to your Spring Boot backend
+const API_URL = 'http://54.82.101.167:8090/FMS'; // 👈 adjust to your Spring Boot backend
 
 const CustomerFeedback: React.FC = () => {
   const [feedbacks, setFeedbacks] = useState<Feedback[]>([]);
